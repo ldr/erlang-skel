@@ -1,0 +1,13 @@
+An empty erlang project with skeleton files for gen_* modules.
+Also contains a Rakefile for building, generating docs, etc.
+
+The skeleton files are extracted from erlware-mode which can be found here:
+http://www.erlware.org/erlware-mode/
+
+The skeleton files are extended with -type and -spec declarations in addition
+to the already defined @spec, see: http://www.erlang.org/eeps/eep-0008.html
+
+(for now, only behaviour_gen_server.erl has -spec declarations, rest will follow)
+
+The Rakefile is copied from the following project:
+http://github.com/Vagabond/gen_smtp/blob/master/Rakefile
