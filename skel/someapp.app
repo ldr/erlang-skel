@@ -1,5 +1,5 @@
 {application, someapp,
- [{description, "DIY Provider"},
+ [{description, "some_description"},
   {vsn, "0.1"},
   {modules, [someapp, someapp_sup]},
   {registered, [someapp, someapp_sup]},
